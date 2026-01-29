@@ -1,0 +1,20 @@
+{
+  "name": "hanna-md-website",
+  "module": "src/index.tsx",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run --hot src/index.tsx",
+    "build": "bun run build.ts",
+    "preview": "bun run --port 3000 dist"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "hono": "^4.11.7"
+  }
+}

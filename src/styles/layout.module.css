@@ -1,0 +1,15 @@
+.pageWrapper {
+  container-type: inline-size;
+  container-name: page;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+  width: 100%;
+  max-width: var(--max-width);
+  margin-inline: auto;
+  padding-inline: var(--space-md);
+}

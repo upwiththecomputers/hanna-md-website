@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio - Comercio Internacional
 
-## Getting Started
+Portfolio profesional para agente de comercio internacional.
 
-First, run the development server:
+## 🚀 Stack Tecnológico
 
+- **Next.js 14** (App Router)
+- **Bun** como runtime
+- **MDX** para contenido
+- **Tailwind CSS** para estilos
+- **TypeScript**
+
+## 💻 Desarrollo
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Instalar dependencias
+bun install
+
+# Desarrollo
+bun run dev
+
+# Build
+bun run build
+
+# Producción
+bun run start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📁 Estructura
+```
+├── app/
+│   ├── components/     # Componentes React
+│   ├── layout.tsx      # Layout principal con metadata
+│   └── page.tsx        # Página principal
+├── content/
+│   ├── about.mdx       # Contenido "Acerca de"
+│   └── cases/          # Casos de éxito en MDX
+├── public/
+│   └── images/         # Imágenes estáticas
+├── next.config.ts      # Configuración Next.js
+└── mdx-components.tsx  # Estilos para MDX
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔍 SEO
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+El sitio incluye:
+- Metadata optimizada
+- OpenGraph tags para redes sociales
+- Twitter Cards
+- Schema.org structured data
+- Sitemap automático (Next.js)
 
-## Learn More
+## 🌐 Características
 
-To learn more about Next.js, take a look at the following resources:
+- ✅ Diseño responsive (mobile-first)
+- ✅ Navegación smooth scroll
+- ✅ Protección anti-scraping en contacto
+- ✅ Contenido en MDX editable
+- ✅ Optimizado para SEO
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Próximos pasos
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [ ] Internacionalización (inglés/polaco)
+- [ ] Analytics con Umami
+- [ ] Imágenes reales
+- [ ] Más casos de éxito

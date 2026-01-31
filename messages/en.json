@@ -1,0 +1,27 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "cases": "Success Cases",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Connecting Companies",
+    "titleHighlight": "Globally",
+    "subtitle": "International trade specialist with 15+ years facilitating successful commercial operations worldwide.",
+    "cta": "Let's Work Together"
+  },
+  "about": {
+    "title": "About Me"
+  },
+  "cases": {
+    "title": "Success Cases",
+    "client": "Client",
+    "country": "Country"
+  },
+  "contact": {
+    "title": "Contact",
+    "email": "Email",
+    "phone": "Phone"
+  }
+}

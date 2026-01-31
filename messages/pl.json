@@ -1,0 +1,27 @@
+{
+  "nav": {
+    "home": "Strona główna",
+    "about": "O mnie",
+    "cases": "Sukcesy",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Łączenie Firm",
+    "titleHighlight": "Globalnie",
+    "subtitle": "Specjalista handlu międzynarodowego z ponad 15-letnim doświadczeniem w udanych operacjach handlowych na całym świecie.",
+    "cta": "Współpracujmy"
+  },
+  "about": {
+    "title": "O mnie"
+  },
+  "cases": {
+    "title": "Sukcesy",
+    "client": "Klient",
+    "country": "Kraj"
+  },
+  "contact": {
+    "title": "Kontakt",
+    "email": "E-mail",
+    "phone": "Telefon"
+  }
+}

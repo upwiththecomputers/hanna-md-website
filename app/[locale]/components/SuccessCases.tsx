@@ -1,9 +1,8 @@
-import fs from 'fs'
-import path from 'path'
+import {useTranslations} from 'next-intl'
 
 export default function SuccessCases() {
-  // Por ahora mostramos un grid estático
-  // En producción, esto cargaría dinámicamente los MDX
+  const t = useTranslations('cases')
+
   const cases = [
     {
       title: 'Exportación Agrícola a Asia',
@@ -22,7 +21,7 @@ export default function SuccessCases() {
   return (
     <section id="cases" className="py-20 px-4">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl font-bold mb-12 text-gray-900">Casos de Éxito</h2>
+        <h2 className="text-4xl font-bold mb-12 text-gray-900">{t('title')}</h2>
 
         {/* Desktop: Grid 3 columnas */}
         <div className="hidden md:grid md:grid-cols-3 gap-8">
@@ -32,8 +31,8 @@ export default function SuccessCases() {
                 Imagen del caso
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">{caso.title}</h3>
-              <p className="text-sm text-gray-600 mb-1">Cliente: {caso.client}</p>
-              <p className="text-sm text-gray-600 mb-1">País: {caso.country}</p>
+              <p className="text-sm text-gray-600 mb-1">{t('client')}: {caso.client}</p>
+              <p className="text-sm text-gray-600 mb-1">{t('country')}: {caso.country}</p>
               <p className="text-sm text-blue-600 font-semibold">{caso.year}</p>
             </div>
           ))}
@@ -47,8 +46,8 @@ export default function SuccessCases() {
                 Imagen del caso
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-2">{caso.title}</h3>
-              <p className="text-sm text-gray-600 mb-1">Cliente: {caso.client}</p>
-              <p className="text-sm text-gray-600 mb-1">País: {caso.country}</p>
+              <p className="text-sm text-gray-600 mb-1">{t('client')}: {caso.client}</p>
+              <p className="text-sm text-gray-600 mb-1">{t('country')}: {caso.country}</p>
               <p className="text-sm text-blue-600 font-semibold">{caso.year}</p>
             </div>
           ))}
